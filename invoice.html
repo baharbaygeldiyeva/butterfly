@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./invoice-styles.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="glass"></div>
+    <div class="background11">
+      <div class="circle1 rounded-circle"></div>
+      <div class="circle2 rounded-circle"></div>
+    </div>
+    <div class="bg">
+      <div class="menu">
+        <div class="d-flex col-6 py-3">
+          <div class="col-1">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <img
+                class="img-menu"
+                src="img/Vector.svg"
+                alt="MenuIcon"
+              />
+            </button>
+          </div>
+          <div class="col-4 d-flex py-2 align-items-center">
+            <img
+            class="img-book"
+            style=" padding-right: 0.6vw; "
+            src="img/ion_bookkk.svg"
+              alt="Logo"
+            />
+            <h3 style="color: #564a57; font-weight: 600 !important; margin: 0 !important;">
+              BUTTERFLY
+            </h3>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img class="img-header" src="img/Vector.png" alt="Icon" />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="main" href="./main.html">Главная</a>
+              </li>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img
+                  class="img-header"
+                  src="img/bi_collection.png"
+                  alt="Icon"
+                />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="courses" href="./courses.html">Курсы</a>
+              </li>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img class="img-header" src="img/Group.png" alt="Icon" />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="loginAcc" href="./login.html">Аккаунт</a>
+              </li>
+            </ul>
+          </div>
+          <div class="offcanvas-footer">
+            <div class="col-4 d-flex py-2 align-items-center margin: 0 !important;">
+              <img
+              class="img-book"
+                style=" padding-right: 0.6vw; padding-left: 1vw !important;"
+                src="img/ion_bookkk.svg"
+                alt="Logo"
+              />
+              <h3 style="color: #564a57; font-weight: 600 !important; margin: 0 !important;">
+                BUTTERFLY
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="table-responsive">
+            <table class="table mx-auto">
+                <thead>
+                  <tr>
+                    <th scope="col"><input type="checkbox" name="sample" class="selectall"></th>
+                    <th class="table-color" scope="col">Invoice ID</th>
+                    <th class="table-color" scope="col">Date</th>
+                    <th class="table-color" scope="col">Customer</th>
+                    <th class="table-color" scope="col">Course</th>
+                    <th class="table-color" scope="col">Paid Amount</th>
+                    <th class="table-color" scope="col">Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="sample[]"></th>
+                    <td class="th-color">#AHGA68</td>
+                    <td class="table-color opacity-75">23/09/2022</td>
+                    <td class="table-color opacity-75">Jacob Marcus</td>
+                    <td class="table-color opacity-75">Lash extensions</td>
+                    <td class="table-color opacity-75">700$</td>
+                    <td class="table-color opacity-75">$000</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        
+    </main>
+      <div class="footer">
+        <footer style="display: flex; justify-content: space-between">
+          <div
+            class="col-6 foot"
+            style="
+              display: flex;
+              gap: 1.5vw;
+              align-items: center;
+              justify-content: start;
+            "
+          >
+            <a style="font-size: 1.2vw" id="main" href="./main.html">Home</a>
+            <a style="font-size: 1.2vw" id="courses" href="./courses.html"
+              >Courses</a
+            >
+            <a style="font-size: 1.2vw" href="#">Contact</a>
+            <a style="font-size: 1.2vw" id="invoice" href="./invoice.html">Invoice</a>
+          </div>
+
+          <div
+            class="col-6"
+            style="
+              display: flex;
+              gap: 15px;
+              justify-content: end;
+              align-items: center;
+              gap: 5;
+            "
+          >
+            <a href="#"><img class="img-footer" src="img/facebook.png" /></a>
+            <a href="#"><img class="img-footer" src="img/instagram.png" /></a>
+            <a href="#"><img class="img-footer" src="img/youtube.png" /></a>
+            <span style="font-size: 1.2vw">&copy; 2023</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

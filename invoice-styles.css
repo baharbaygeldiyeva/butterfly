@@ -1,0 +1,17 @@
+.table-color {
+    color: #741777 !important;
+}
+
+.table {
+    background-color: #fff;
+    margin-top: 5rem;
+    width: 65%;
+}
+
+.th-color {
+    color: #E1347E !important
+}
+
+th, td {
+    padding: 1.3rem 1.5rem !important;
+}

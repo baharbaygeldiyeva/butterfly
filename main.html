@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main-styles.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <div class="glass"></div>
+    <div class="background11">
+      <div class="circle1 rounded-circle"></div>
+      <div class="circle2 rounded-circle"></div>
+    </div>
+    <div class="bg">
+      <div class="menu">
+        <div class="d-flex col-6 py-3">
+          <div class="col-1">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <img
+                class="img-menu"
+                src="img/Vector.svg"
+                alt="MenuIcon"
+              />
+            </button>
+          </div>
+          <div class="col-5 d-flex py-2 align-items-center justify-content-strat">
+            <img
+            class="img-book"
+              style=" padding-right: 0.6vw; "
+              src="img/ion_bookkk.svg"
+              alt="Logo"
+            />
+            <h3 style="color: #564a57; font-weight: 600 !important; margin: 0 !important;">
+              BUTTERFLY
+            </h3>
+          </div>
+       
+        </div>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img class="img-header" src="img/Vector.png" alt="Icon" />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="#">Главная</a>
+              </li>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img
+                  class="img-header"
+                  src="img/bi_collection.png"
+                  alt="Icon"
+                />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="courses" href="./courses.html">Курсы</a>
+              </li>
+              <li class="list-group-item d-flex align-items-center py-3">
+                <img class="img-header" src="img/Group.png" alt="Icon" />
+                <a style="padding-left: 1vw; font-weight: 350 !important;" id="loginAcc" href="./login.html">Аккаунт</a>
+              </li>
+            </ul>
+          </div>
+          <div class="offcanvas-footer">
+            <div class="col-4 d-flex py-2 align-items-center margin: 0 !important;">
+              <img
+              class="img-book"
+                style=" padding-right: 0.6vw; padding-left: 1vw !important;"
+                src="img/ion_bookkk.svg"
+                alt="Logo"
+              />
+              <h3 style="color: #564a57; font-weight: 600 !important; margin: 0 !important;">
+                BUTTERFLY
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-12 px-5 px-5 d-flex home align-items-center; justify-content-center"
+      >
+        <div class="col-lg-7 col-md-7 col-sm-12">
+          <div class="text">
+            <h1 style="color: #b4a9d2" class="h1">
+              Платформа <br />для обучения
+            </h1>
+            <div class="d-flex">
+              <img
+                class="main-img"
+                style="height: 4.5vw; margin-bottom: 5vw; margin-top: 1vw !important;"
+                src="./img/Group 1.png"
+                alt="photo"
+              />
+              <h1 style="color: #b4a9d2" class="h1">Навыкам</h1>
+            </div>
+          </div>
+          <div class="d-flex">
+            <button style="font-size: 1.5vw" class="go-button">
+              <a style="color: white !important" href="#main"
+                >Поехали
+                <img
+                  class="img-header"
+                  href="#main"
+                  src="./img/gridicons_play.png"
+              /></a>
+            </button>
+            <div class="course">
+              <h4
+                class="h4"
+                class="justify-content-end;"
+                style="color: #b4a9d2"
+              >
+                Лучшие курсы<br />
+                пользовательского<br />
+                опыта
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 d-none d-lg-block d-md-block container">
+          <div class="row">
+            <div class="col-5 d-flex">
+              <img
+                src="./img/Frame 2.png"
+                alt="img"
+                style="height: 35vw; position: absolute; top: 0vw; right: 0vw"
+              />
+              <img
+                src="./img/Frame 1 (1).svg"
+                alt="img"
+                style="height: 35vw; position: absolute; top: 12vw; left: 59vw"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main" class="col-12 d-none d-lg-flex d-sm-flex">
+        <div class="col-3 py-1">
+          <div class="layout">
+            <img
+              class="image"
+              style="height: 17vw; width: 21vw"
+              src="./img/Rectangle 55.jpg"
+            />
+
+            <div class="text">
+              <img class="img-pos" style="height: 2vw" src="./img/logoo.png" />
+              <p class="pic-text" style="color: white !important">
+                EYELASH <br />
+                EXTENSION
+              </p>
+              <p class="pic-text-2" style="color: white !important">UXD, CEO</p>
+            </div>
+            <a
+              style="font-size: 1vw !important;"
+              class="more-button" 
+              id="main"
+              href="./courses-1.html">
+              <img style="height: 1vw;" src="mic.svg" alt=""> ПОДРОБНЕЕ</a>
+          </div>
+
+          <div class="py-1">
+            <div class="layout">
+              <img
+                class="image"
+                style="height: 17vw; width: 21vw; border-radius: 1vw"
+                src="./img/Rectangle 7.jpg"
+              />
+
+              <div class="text">
+                <img
+                  class="img-pos"
+                  style="height: 2vw"
+                  src="./img/logoo.png"
+                />
+                <p class="pic-text" style="color: white !important">
+                  PARCHMENT<br />
+                  MAKEUP
+                </p>
+                <p class="pic-text-2" style="color: white !important">
+                  UXD, CEO
+                </p>
+              </div>
+              <a
+              style="font-size: 1vw !important;"
+              class="more-button" 
+              id="main"
+              href="./courses-1.html">
+              <img style="height: 1vw;" src="mic.svg" alt=""> ПОДРОБНЕЕ</a>
+              >
+            </div>
+          </div>
+          <div class="d-flex">
+            <h5 style="color: #b4a9d2">
+              <span style="color: #be00bd">ЗАПИСЫВАЙСЯ</span> СЕЙЧАС И ПОЛУЧИ
+              СКИДКУ
+            </h5>
+            <h1 style="font-size: 4vw !important; color: #be00bd">15%</h1>
+          </div>
+        </div>
+        <div
+          class="col-6 my-2 d-block align-items-center justify-content-center"
+        >
+          <div class="background">
+            <div class="layout3 text-center">
+              <h5
+                style="
+                  color: white !important;
+                  font-weight: 300;
+                  padding-top: 2vw;
+                "
+                class="text-about"
+              >
+                TEACHERS
+              </h5>
+              <h3
+                style="color: white"
+                class="text-uppercase d-flex justify-content-center"
+              >
+                начать новую карьеру c профессионалами
+              </h3>
+              <img
+                style="padding-top: 0.2vw"
+                class="imgabout"
+                src="./img/Group 3.png"
+              />
+              <div class="imagee" style="display: none">
+                <div class="pic">
+                  <img
+                    style="height: 50%; width: 80%"
+                    src="./img/div.tn-atom.png"
+                  />
+                  <p style="color: white !important">Тома Зализняк</p>
+                  <p
+                    class="text-align-justify px-3"
+                    style="font-size: 1vw !important; color: white !important"
+                  >
+                    Fonder, Lashmaker <br />
+                    & Brow artist.
+                  </p>
+                </div>
+
+                <div class="pic">
+                  <img
+                    style="height: 50%; width: 80%"
+                    src="./img/div.tn-atom (1).png"
+                  />
+                  <p style="color: white !important">Тома Зализняк</p>
+                  <p
+                    class="text-align-justify px-3"
+                    style="font-size: 1vw !important; color: white !important"
+                  >
+                    Fonder, Lashmaker <br />
+                    & Brow artist.
+                  </p>
+                </div>
+
+                <div class="pic">
+                  <img
+                    style="height: 50%; width: 80%"
+                    src="./img/div.tn-atom (2).png"
+                  />
+                  <p style="color: white !important">Тома Зализняк</p>
+                  <p
+                    class="px-3"
+                    style="font-size: 1vw !important; color: white !important"
+                  >
+                    Fonder, Lashmaker <br />
+                    & Brow artist.
+                  </p>
+                </div>
+
+                <div class="pic">
+                  <img
+                    style="height: 50%; width: 80%"
+                    src="./img/div.tn-atom (3).png"
+                  />
+                  <p style="color: white !important">Тома Зализняк</p>
+                  <p
+                    class="text-align-justify px-3"
+                    style="font-size: 1vw !important; color: white !important"
+                  >
+                    Fonder, Lashmaker <br />
+                    & Brow artist.
+                  </p>
+                </div>
+              </div>
+              <button class="btn-about">
+                <img
+                  style="height: 3.5vw"
+                  src="./img/Group 2.png"
+                  alt="About Us"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="py-2">
+            <div class="background2 p-2 py-4">
+              <div style="padding-bottom: 5vw" class="col-12 gap-2 d-flex">
+                <div class="col-4 d-flex justify-content-center">
+                  <button style="border-color: #b4a9d2 !important;" class="bg-1">
+                    <img
+                      class="img-header"
+                      id="logo-image"
+                      src="./img/ion_book.svg"
+                    />
+                    <p style="color: #741777 !important" class="text-logo">
+                      About us
+                    </p>
+                  </button>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center">
+                  <button style="border-color: #b4a9d2 !important;"  class="bg-2">
+                    <img
+                      class="img-header"
+                      id="logo-image"
+                      src="./img/ion_book.svg"
+                    />
+                    <p style="color: #741777 !important" class="text-logo">
+                      Our mission
+                    </p>
+                  </button>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center">
+                  <button style="border-color: #b4a9d2 !important;"  class="bg-3">
+                    <img
+                      class="img-header"
+                      id="logo-image"
+                      src="./img/ion_book.svg"
+                    />
+                    <p style="color: #741777 !important" class="text-logo">
+                      Certificate
+                    </p>
+                  </button>
+                </div>
+              </div>
+              <div class="textabt1" style="display: block !important">
+                <h4
+                  style="color: #741777; font-weight: 500 !important"
+                  class="px-3"
+                >
+                  ABOUT BUTTERFLY
+                </h4>
+                <p style="color: #741777 !important" class="px-3">
+                  The founders of the project were involved in each of the
+                  directions separately for a long time and once decided to
+                  combine knowledge into experience in beauty and IT in order to
+                  make the most convenient service for training and product
+                  selection, which will make life easier and create comfortable
+                  conditions for the development of each master and the beauty
+                  industry as a whole.
+                </p>
+              </div>
+              <div class="textabt2" style="display: none !important">
+                <h4
+                  style="color: #741777; font-weight: 500 !important"
+                  class="px-3"
+                >
+                  OUR MISSION
+                </h4>
+                <p style="color: #741777 !important" class="px-3">
+                  The founders of the project were involved in each of the
+                  directionThe founders of the project were involved in each of
+                  the directionThe founders of the project were involved in each
+                  of the directionThe founders of the project were involved in
+                  each of the direction
+                </p>
+              </div>
+              <div
+                class="textabt3"
+                style="display: none !important"
+                class="px-3"
+              >
+                <h4
+                  style="color: #741777; font-weight: 500 !important"
+                  class="px-3"
+                >
+                  CERTIFICATE
+                </h4>
+                <p style="color: #741777 !important" class="px-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="py-1">
+            <div class="layout2">
+              <h4 class="justify-content-center d-flex" style="color: gray">
+                КУРСЫ
+              </h4>
+              <div style="padding: 0.7vw">
+                <div style="width: 23vw" class="courses1">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                  >
+                    НАРАЩИВАНИЕ НОГТЕЙ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div
+                  class="circle d-flex align-items-center justify-content-center"
+                >
+                  <a id="icon" href="./courses.html"
+                    ><img style="height: 1.3vw" src="./img/iconn.svg"
+                  /></a>
+                </div>
+
+                <div style="width: 23vw" class="courses2">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                    >НАРАЩИВАНИЕ РЕСНИЦ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw">
+                <div style="width: 23vw" class="courses1">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                  >
+                    ПЕРГАМЕННЫЙ МАКИЯЖ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div class="px-2">
+                  <div style="width: 12vw" class="courses3">
+                    <a
+                      id="main"
+                      href="./courses-1.html"
+                      style="color: #b4a9d2 !important"
+                    >
+                      ШУГАРИНГ</a
+                    >
+                  </div>
+                </div>
+                <div style="width: 12vw" class="courses3">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                    >TATY</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw">
+                <div style="width: 23vw" class="courses2">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                    >КУРСЫ КОСМЕТОЛОГА</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div class="px-2">
+                  <div style="width: 12vw !important" class="courses3">
+                    <a
+                      id="main"
+                      href="./courses-1.html"
+                      style="color: #b4a9d2 !important"
+                      >МАССАЖ</a
+                    >
+                  </div>
+                </div>
+                <div style="width: 12vw !important" class="courses3">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important"
+                    >БРОВИСТ</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="py-1">
+              <div class="layout">
+                <h4
+                  class="p-2 justify-content-center d-flex"
+                  style="color: gray !important"
+                >
+                  ОТЗЫВЫ
+                </h4>
+
+                <div>
+                  <div class="box p-2 d-flex justify-content-center">
+                    <h3 style="font-size: 1vw !important">
+                      Always wanted to spend less time for makeup in the
+                      morning. I decided to learn permanent from Julia, very
+                      satisfied with the result!
+                    </h3>
+                  </div>
+                  <div class="review-img">
+                    <img src="./img/div.t386__img.png" />
+                  </div>
+                  <div class="review-name">
+                    <h3 style="font-size: 1vw !important">
+                      <b>Maria Johnson</b>
+                    </h3>
+                  </div>
+                  <div class="review-r">
+                    <h3
+                      style="
+                        font-size: 1vw !important;
+                        color: gray;
+                        font-weight: 300;
+                      "
+                    >
+                      Eyebrow and lip perm
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding-bottom: 5vw"
+        class="col-12 d-lg-none d-md-none d-md-block"
+      >
+        <div class="background-12">
+          <div class="layout3-12 text-center">
+            <h2 style="color: white; font-weight: 400" class="text-about-12">
+              TEACHERS
+            </h2>
+            <h2
+              style="color: white"
+              class="text-uppercase d-flex justify-content-center"
+            >
+              начать новую карьеру c профессионалами
+            </h2>
+            <img
+              style="padding-top: 5vw"
+              class="imgabout-12"
+              src="./img/Group 3.png"
+            />
+            <div class="imagee-12" style="display: none">
+              <div class="pic-12">
+                <img
+                  style="height: 50%; width: 60%"
+                  src="./img/div.tn-atom.png"
+                />
+                <h3 style="color: white !important">Тома Зализняк</h3>
+                <h3 style="font-size: 1.3vw; color: white !important">
+                  Fonder, Lashmaker & Brow artist.
+                </h3>
+              </div>
+
+              <div class="pic-12">
+                <img
+                  style="height: 50%; width: 60%"
+                  src="./img/div.tn-atom (1).png"
+                />
+                <h3 style="color: white !important">Тома Зализняк</h3>
+                <h3 style="font-size: 1.3vw; color: white !important">
+                  Fonder, Lashmaker & Brow artist.
+                </h3>
+              </div>
+
+              <div class="pic-12">
+                <img
+                  style="height: 50%; width: 60%"
+                  src="./img/div.tn-atom (2).png"
+                />
+                <h3 style="color: white !important">Тома Зализняк</h3>
+                <h3 style="font-size: 13px; color: white !important">
+                  Fonder, Lashmaker & Brow artist.
+                </h3>
+              </div>
+
+              <div class="pic-12">
+                <img
+                  style="height: 50%; width: 60%"
+                  src="./img/div.tn-atom (3).png"
+                />
+                <h3 style="color: white !important">Тома Зализняк</h3>
+                <h3 style="font-size: 1.3vw; color: white !important">
+                  Fonder, Lashmaker & Brow artist.
+                </h3>
+              </div>
+            </div>
+            <button class="btn-about-12">
+              <img
+                style="height: 7.5vw"
+                src="./img/Group 2.png"
+                alt="About Us"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="py-2">
+          <div class="background2-12">
+            <div style="padding-left: 6vw" class="col-12 d-flex">
+              <div class="col-4 p-2 py-2">
+                <button class="bg-1-12">
+                  <img
+                    class="img-header"
+                    id="logo-image"
+                    src="./img/ion_book.svg"
+                  />
+                  <p
+                    style="color: #741777 !important; font-size: 2vw !important"
+                    class="text-logo"
+                  >
+                    About us
+                  </p>
+                </button>
+              </div>
+
+              <div class="col-4 p-2 py-2">
+                <button class="bg-2-12">
+                  <img
+                    class="img-header"
+                    id="logo-image"
+                    src="./img/ion_book.svg"
+                  />
+                  <p
+                    style="color: #741777 !important; font-size: 2vw !important"
+                    class="text-logo"
+                  >
+                    Our mission
+                  </p>
+                </button>
+              </div>
+
+              <div class="col-4 p-2 py-2">
+                <button class="bg-3-12">
+                  <img
+                    class="img-header"
+                    id="logo-image"
+                    src="./img/ion_book.svg"
+                  />
+                  <p
+                    style="color: #741777 !important; font-size: 2vw !important"
+                    class="text-logo"
+                  >
+                    Certificate
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div class="textabt1-12" style="display: block !important">
+              <h3
+                style="padding: 5%; color: #741777; font-weight: 500 !important"
+              >
+                ABOUT BUTTERFLY
+              </h3>
+              <h3 style="color: #741777 !important; padding-left: 5%">
+                The founders of the project were involved in each of the
+                directions separately for a long time and once decided to
+                combine knowledge into experience in beauty and IT in order to
+                make the most convenient service for training and product
+                selection, which will make life easier and create comfortable
+                conditions for the development of each master and the beauty
+                industry as a whole.
+              </h3>
+            </div>
+            <div class="textabt2-12" style="display: none !important">
+              <h3
+                style="padding: 5%; color: #741777; font-weight: 500 !important"
+              >
+                OUR MISSION
+              </h3>
+              <h3 style="color: #741777 !important; padding-left: 5%">
+                The founders of the project were involved in each of the
+                directionThe founders of the project were involved in each of
+                the directionThe founders of the project were involved in each
+                of the directionThe founders of the project were involved in
+                each of the direction
+              </h3>
+            </div>
+            <div class="textabt3-12" style="display: none !important">
+              <h3
+                style="
+                  padding: 2vw;
+                  color: #741777;
+                  font-weight: 500 !important;
+                "
+              >
+                CERTIFICATE
+              </h3>
+              <h3 style="color: #741777 !important; padding-left: 5%">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-lg-none d-md-none d-flex d-sm-flex">
+        <div class="col-6 py-1">
+          <div class="layout-12">
+            <img
+              class="image-12"
+              style="height: 34vw; width: 40vw"
+              src="./img/Rectangle 55.jpg"
+            />
+            <div class="pic-text-12">
+              <div class="text-12">
+                <img src="./img/logoo.png" />
+                <h3 style="color: white; font-size: 2.5vw !important">
+                  PARCHMENT<br />
+                  MAKEUP
+                </h3>
+                <h3 style="color: white; font-size: 2.5vw !important">
+                  UXD, CEO
+                </h3>
+
+                <a
+                  style="font-size: 2.2vw !important"
+                  class="more-button-12"
+                  id="main"
+                  href="./courses-1.html"
+                  >ПОДРОБНЕЕ</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="py-1">
+            <div class="layout-12">
+              <img
+                class="image-12"
+                style="height: 34vw; width: 40vw; border-radius: 1vw"
+                src="./img/Rectangle 7.jpg"
+              />
+              <div class="pic-text-12">
+                <div class="text-12">
+                  <img src="./img/logoo.png" />
+                  <h3 style="color: white; font-size: 2.5vw !important">
+                    PARCHMENT<br />
+                    MAKEUP
+                  </h3>
+                  <h3 style="color: white; font-size: 2.5vw !important">
+                    UXD, CEO
+                  </h3>
+
+                  <a
+                    style="font-size: 2.2vw !important"
+                    class="more-button-12"
+                    id="main"
+                    href="./courses-1.html"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <h3 style="color: #b4a9d2">
+              <span style="color: #be00bd">ЗАПИСЫВАЙСЯ</span> СЕЙЧАС И ПОЛУЧИ
+              СКИДКУ
+            </h3>
+            <h1 style="color: #be00bd">15%</h1>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="py-1">
+            <div class="layout2-12">
+              <h4
+                class="justify-content-center d-flex"
+                style="color: gray; font-size: 4vw !important"
+              >
+                КУРСЫ
+              </h4>
+              <div style="padding: 0.7vw">
+                <div style="width: 43vw" class="courses1-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                  >
+                    НАРАЩИВАНИЕ НОГТЕЙ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div
+                  class="circle-12 d-flex align-items-center justify-content-center"
+                >
+                  <a id="icon" href="./courses-1.html"
+                    ><img style="height: 4.5vw" src="./img/iconn.svg"
+                  /></a>
+                </div>
+
+                <div style="width: 39vw" class="courses2-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                    >НАРАЩИВАНИЕ РЕСНИЦ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw">
+                <div style="width: 43vw" class="courses1-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                  >
+                    ПЕРГАМЕННЫЙ МАКИЯЖ</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div class="px-2">
+                  <div style="width: 20vw" class="courses3-12">
+                    <a
+                      id="main"
+                      href="./courses-1.html"
+                      style="
+                        color: #b4a9d2 !important;
+                        font-size: 2vw !important;
+                      "
+                    >
+                      ШУГАРИНГ</a
+                    >
+                  </div>
+                </div>
+                <div style="width: 20vw" class="courses3-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                    >TATY</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw">
+                <div style="width: 39vw" class="courses2-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                    >КУРСЫ КОСМЕТОЛОГА</a
+                  >
+                </div>
+              </div>
+              <div style="padding: 0.7vw" class="d-flex">
+                <div class="px-2">
+                  <div style="width: 20vw !important" class="courses3-12">
+                    <a
+                      id="main"
+                      href="./courses-1.html"
+                      style="
+                        color: #b4a9d2 !important;
+                        font-size: 2vw !important;
+                      "
+                      >МАССАЖ</a
+                    >
+                  </div>
+                </div>
+                <div style="width: 20vw !important" class="courses3-12">
+                  <a
+                    id="main"
+                    href="./courses-1.html"
+                    style="color: #b4a9d2 !important; font-size: 2vw !important"
+                    >БРОВИСТ</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="py-1">
+              <div class="layout-12">
+                <h4
+                  class="p-2 justify-content-center d-flex"
+                  style="color: gray !important; font-size: 4vw !important"
+                >
+                  ОТЗЫВЫ
+                </h4>
+
+                <div>
+                  <div class="box-12 p-2 d-flex justify-content-center">
+                    <h3 style="font-size: 2vw !important">
+                      Always wanted to spend less time for makeup in the
+                      morning. I decided to learn permanent from Julia, very
+                      satisfied with the result!
+                    </h3>
+                  </div>
+                  <div class="review-img-12">
+                    <img src="./img/div.t386__img.png" />
+                  </div>
+                  <div class="review-name-12">
+                    <h3 style="font-size: 2vw !important">
+                      <b>Maria Johnson</b>
+                    </h3>
+                  </div>
+                  <div class="review-r-12">
+                    <h3
+                      style="
+                        font-size: 2vw !important;
+                        color: gray;
+                        font-weight: 300;
+                      "
+                    >
+                      Eyebrow and lip perm
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <footer style="display: flex; justify-content: space-between">
+          <div
+            class="col-6 foot  d-flex justify-content-start align-items-center"  style=" gap: 2.5vw;">
+            <a style=" font-weight: 500;" id="main" href="./main.html">Home</a>
+            <a style=" font-weight: 500;" id="courses" href="./courses.html">Courses</a>
+            <a style=" font-weight: 500;" id="contact" href="contact">Contact</a>
+            <a style=" font-weight: 500;" id="invoice" href="./invoice.html" >Invoice</a>
+          </div>
+
+          <div
+            class="col-6 d-flex justify-content-end align-items-center"
+            style=" gap: 2.5vw;"
+          >
+            <a href="#"><img class="img-footer" src="img/facebook.svg" /></a>
+            <a href="#"><img class="img-footer" src="img/instagram.svg" /></a>
+            <a href="#"><img class="img-footer" src="img/youtube.svg" /></a>
+            <a style="font-weight: 500;" >&copy; 2023</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      const btnAbout = document.querySelector(".btn-about");
+      const background = document.querySelector(".background");
+      const layout3 = document.querySelector(".layout3");
+      const imgabout = document.querySelector(".imgabout");
+      const imagee = document.querySelector(".imagee");
+      const btnbout = document.querySelector(".btn-about");
+      const background2 = document.querySelector(".background2");
+      const bg1 = document.querySelector(".bg-1");
+      const bg2 = document.querySelector(".bg-2");
+      const bg3 = document.querySelector(".bg-3");
+      const textabt1 = document.querySelector(".textabt1");
+      const textabt2 = document.querySelector(".textabt2");
+      const textabt3 = document.querySelector(".textabt3");
+      const picElements = document.querySelectorAll(".pic");
+
+      const btnAbout12 = document.querySelector(".btn-about-12");
+      const background12 = document.querySelector(".background-12");
+      const layout312 = document.querySelector(".layout3-12");
+      const imgabout12 = document.querySelector(".imgabout-12");
+      const imagee12 = document.querySelector(".imagee-12");
+      const btnbout12 = document.querySelector(".btn-about-12");
+      const background212 = document.querySelector(".background2-12");
+      const bg112 = document.querySelector(".bg-1-12");
+      const bg212 = document.querySelector(".bg-2-12");
+      const bg312 = document.querySelector(".bg-3-12");
+      const textabt112 = document.querySelector(".textabt1-12");
+      const textabt212 = document.querySelector(".textabt2-12");
+      const textabt312 = document.querySelector(".textabt3-12");
+      const picElements12 = document.querySelectorAll(".pic-12");
+      let isExpanded = false;
+
+      btnAbout.addEventListener("click", () => {
+        if (isExpanded) {
+          imgabout.style.display = "flex";
+          imagee.style.display = "none";
+          background.style.width = "48vw";
+          background.style.height = "20vw";
+          layout3.style.width = "43vw";
+          layout3.style.height = "17vw";
+          background2.style.width = "48vw";
+          background2.style.height = "26vw";
+          btnAbout.style.transform = "rotate(360deg)";
+          isExpanded = false;
+        } else {
+          imgabout.style.display = "none";
+          imagee.style.display = "flex";
+          background.style.width = "48vw";
+          background.style.height = "40vw";
+          layout3.style.width = "43vw";
+          layout3.style.height = "36vw";
+          background2.style.width = "48.5vw";
+          background2.style.height = "15vw";
+          btnAbout.style.transform = "rotate(180deg)";
+          isExpanded = true;
+        }
+        for (const picElement of picElements) {
+          picElement.style.display = "inline-block";
+        }
+      });
+      bg1.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt1.style.display = "block";
+          textabt2.style.display = "none";
+          textabt3.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "35vw";
+          isExpanded = false;
+        } else {
+          textabt1.style.display = "none";
+          textabt2.style.display = "none";
+          textabt3.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+      bg2.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt2.style.display = "block";
+          textabt1.style.display = "none";
+          textabt3.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "35vw";
+          isExpanded = false;
+        } else {
+          textabt2.style.display = "none";
+          textabt1.style.display = "none";
+          textabt3.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+      bg3.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt3.style.display = "block";
+          textabt1.style.display = "none";
+          textabt2.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "35vw";
+          isExpanded = false;
+        } else {
+          textabt3.style.display = "none";
+          textabt1.style.display = "none";
+          textabt2.style.display = "none";
+          background2.style.width = "48vw";
+          background2.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+      btnAbout12.addEventListener("click", () => {
+        if (isExpanded) {
+          imgabout12.style.display = "flex";
+          imagee12.style.display = "none";
+          background12.style.width = "97.5vw";
+          background12.style.height = "32vw";
+          layout3.style.width = "86vw";
+          layout312.style.height = "27vw";
+
+          isExpanded = false;
+        } else {
+          imgabout12.style.display = "none";
+          imagee12.style.display = "flex";
+          background12.style.width = "97.5vw";
+          background12.style.height = "57vw";
+          layout312.style.width = "86vw";
+          layout312.style.height = "50vw";
+
+          isExpanded = true;
+        }
+        for (const picElement12 of picElements12) {
+          picElement12.style.display = "inline-block";
+        }
+      });
+
+      bg112.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt112.style.display = "block";
+          textabt212.style.display = "none";
+          textabt312.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "70vw";
+          isExpanded = false;
+        } else {
+          textabt112.style.display = "none";
+          textabt212.style.display = "none";
+          textabt312.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+      bg212.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt212.style.display = "block";
+          textabt112.style.display = "none";
+          textabt312.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "70vw";
+          isExpanded = false;
+        } else {
+          textabt212.style.display = "none";
+          textabt112.style.display = "none";
+          textabt312.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+      bg312.addEventListener("click", () => {
+        if (isExpanded) {
+          textabt312.style.display = "block";
+          textabt112.style.display = "none";
+          textabt212.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "70vw";
+          isExpanded = false;
+        } else {
+          textabt312.style.display = "none";
+          textabt112.style.display = "none";
+          textabt212.style.display = "none";
+          background212.style.width = "97.5vw";
+          background212.style.height = "25vw";
+          isExpanded = true;
+        }
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(".portfolio").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    </script>
+  </body>
+</html>
